@@ -1,0 +1,43 @@
+header {
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+}
+.main ul {
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.banner {
+    height: 700px;
+    width: 100%;
+    background: url(/assets/background.png);
+    background-size: cover;
+}
+.banner-text {
+    padding-top: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+footer {
+    margin: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.social {
+    width: 200px;
+}
+.social ul {
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
