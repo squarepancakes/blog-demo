@@ -1,0 +1,40 @@
+main {
+	padding-bottom: 2rem;
+}
+.banner {
+	top: 0;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	background: url(/assets/bg.png);
+	background-size: cover;
+	background-position: center;
+}
+.banner-text {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 1rem;
+}
+.banner-text > h1 {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 2.25em;
+	font-weight: bold;
+}
+.banner-text .welcome-text {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 1.4rem;
+	margin-top: 1em;
+	width: 500px;
+}
+.banner-text a {
+	font-size: 1rem;
+	font-weight: bold;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 2em;
+	width: 8em;
+	margin-top: 1em;
+	margin-left: 0;
+	padding-top: 0.4em;
+	text-align: center;
+}

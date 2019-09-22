@@ -1,0 +1,45 @@
+.recipe {
+	margin: 5% auto 5% auto;
+	width: 800px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+article.recipe-head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+h1.recipe-title {
+	font-family: "Red Hat Display";
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: bolder;
+	border-bottom: 2px #534b62 solid;
+}
+.recipe h2 {
+	font-family: "Red Hat Display";
+	font-size: 1.2rem;
+	margin: 0.2em;
+}
+section.ingredients {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5em;
+}
+.recipe img {
+	width: 40%;
+	height: 170px;
+}
+.recipe ul > li {
+	margin: 0.1rem;
+	list-style: square;
+	padding: 0;
+}
+.recipe ol > li {
+	margin: 0.1rem;
+}
+.recipe section {
+	margin: 0.2rem;
+}

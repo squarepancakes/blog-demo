@@ -1,0 +1,41 @@
+@import url("./app.css");
+@import url("./header.css");
+
+main {
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+.recipe-post {
+	height: 100%;
+	width: 600px;
+	border: 1px solid black;
+	padding: 1rem;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.recipe-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.recipe-snip {
+	margin-top: 0.5em;
+}
+.recipe-link {
+	padding-top: 5px;
+	padding-right: 5px;
+	color: #534b62;
+	font-weight: bolder;
+	align-self: flex-end;
+	background-color: gray;
+	border-radius: 1.25em;
+	padding: 0.5em;
+	padding-right: 0.6em;
+	color: white; /* overwrite color on top. delete one of them */
+}
+.recipe-link:hover {
+	transition: all 0.2s ease-in-out;
+	transform: scale(1.1);
+	color: aquamarine;
+}

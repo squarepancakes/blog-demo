@@ -1,0 +1,84 @@
+.resume {
+	margin: 20px auto;
+	padding: 10px;
+	max-width: 50em;
+	height: 50em;
+	border: solid 1px #534b62;
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	grid-template-columns: 1fr 2fr;
+	grid-template-areas:
+		"profile experience"
+		"skills experience"
+		"personal experience"
+		"education education";
+}
+.resume li {
+	float: none;
+	list-style: square;
+}
+.resume .profile {
+	grid-row: profile;
+	grid-column: profile;
+	align-self: left;
+}
+.profile a {
+	font-family: "Raleway", sans-serif;
+	color: black;
+	text-transform: none;
+	text-align: right;
+	margin: 0;
+}
+.resume .experience {
+	grid-row: experience;
+	grid-column: experience;
+	border-left: 1.5px #534b62 solid;
+}
+.resume .education {
+	grid-row: education;
+	grid-column: education;
+}
+
+.resume .education li p {
+	display: block;
+}
+.resume .skills {
+	grid-row: skills;
+	grid-column: skills;
+}
+.resume h1,
+.resume h2,
+.resume h3,
+.resume li,
+.resume li + li {
+	margin: 0;
+	list-style: square;
+	display: inline;
+}
+
+.resume h2 {
+	font-size: 1.4rem;
+	margin-top: 0.5em auto 0.2em 0.5em;
+	font-weight: bolder;
+}
+
+.resume h3 {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.resume p,
+.resume li {
+	font-size: 0.9rem;
+	font-weight: normal;
+}
+
+.resume ul {
+	padding-left: 0;
+	margin: 0;
+}
+
+.resume ul > li {
+	list-style: none;
+	margin: 1em;
+}

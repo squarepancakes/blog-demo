@@ -1,0 +1,35 @@
+/*-- STANDARD --*/
+@import url("https://fonts.googleapis.com/css?family=Raleway|Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+@import url("./header.css");
+@import url("./landing.css");
+@import url("./recipe.css");
+@import url("./recipe-page.css");
+@import url("./resume.css");
+@import url("./contact.css");
+
+:root {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: inherit;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	background-color: rgba(250, 240, 230, 1);
+}
+
+a {
+	font-family: "Red Hat Display", "Raleway", sans-serif;
+	color: bisque;
+	text-transform: uppercase;
+}
+
+main {
+}

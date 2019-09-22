@@ -1,0 +1,30 @@
+.bye {
+	height: 550px;
+	width: 100%;
+}
+.bye-msg {
+	margin-top: 8%;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.bye-msg > h1 {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 2.25em;
+	font-weight: bold;
+}
+.bye p {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 1.4rem;
+	margin-top: 1em;
+}
+.social {
+	margin: 1rem auto 0 auto;
+	width: 450px;
+	display: flex;
+	justify-content: space-around;
+}
+.social a {
+	color: #534b62;
+}
